@@ -35,7 +35,7 @@ This pressure change is measured using the **HX710B/HX70AB air pressure sensor**
 
 Additionally, we integrate **open-source historical DWLR data** and train **LSTM models** to forecast future groundwater levels.
 
-*(Based on Introduction — Page 3 of SIH PDF)*
+
 
 
 ---
@@ -51,7 +51,7 @@ Additionally, we integrate **open-source historical DWLR data** and train **LSTM
 * Raman Sharma
 * Shubham Chaudhary
 
-*(As provided)*
+
 
 ---
 
@@ -71,9 +71,7 @@ Groundwater depletion has become a severe national challenge due to:
 
 These issues lead to **water scarcity**, reduced **agricultural yield**, and **poor resource planning**.
 
-*(Based on Problem Statement — Page 4)*
 
-*(Supported by SIH Problem Title — Page 1)*
 
 
 ---
@@ -91,8 +89,6 @@ Our solution aims to:
 ### ✔ Integrate LSTM models to **predict future groundwater trends**
 
 ### ✔ Support decision-making for **farmers, policymakers, and water authorities**
-
-*(Based on “Our Innovative Solutions” — Page 5)*
 
 
 ---
@@ -122,7 +118,6 @@ Our solution aims to:
 * LSTM model trained using DWLR datasets
 * Predictive curves showing future groundwater trends
 
-*(Supported by pages 3, 4, 5 of Avinya PDF)*
 
 
 ---
@@ -137,9 +132,6 @@ Our solution aims to:
 * **Jumper wires**
 * **Power supply (USB)**
 
-*(Hardware section — Page 8)*
-
-*(Hardware list — Page 3 of SIH PDF)*
 
 
 ### Flow
@@ -161,7 +153,6 @@ Our solution aims to:
 * Sends JSON packets to Firebase
 * Code: `ground_water_resource_evaluation.ino`
 
-*(From uploaded `.ino` file reference)*
 
 ### Backend
 
@@ -182,10 +173,6 @@ Our solution aims to:
 4. **LSTM model training** using historical time-series data
 5. Dashboard shows **future groundwater predictions**
 
-*(Data availability — Page 6)*
-
-*(DWLR description — Page 2 of SIH PDF)*
-
 
 ---
 
@@ -198,8 +185,6 @@ Our solution aims to:
   * Next 7 days
   * Next 30 days
   * Seasonal predictions (optional)
-
-*(Mentioned on Page 3 — ML models such as LSTM)*
 
 
 ---
@@ -223,25 +208,25 @@ Our solution aims to:
 ### ✔ Data Availability
 
 Open government datasets (Data.gov.in, IndiaWRIS)
-*(Page 6)*
+
 
 
 ### ✔ Cost-Effective
 
 Minimal hardware + free Firebase tier
-*(Page 7)*
+
 
 
 ### ✔ Scalable
 
 Cloud-based expansion without downtime
-*(Page 7)*
+
 
 
 ### ✔ Sustainability
 
 Prevents over-extraction and assists conservation
-*(Page 7)*
+
 
 
 ---
@@ -268,7 +253,6 @@ Prevents over-extraction and assists conservation
 * Reduces irrigation cost
 * Optimises water use
 
-*(Impact & Benefits — Page 10)*
 
 
 ---
@@ -281,8 +265,6 @@ Prevents over-extraction and assists conservation
 * **Frontend:** Web App
 * **ML:** Python, TensorFlow / TensorFlow Lite
 * **Mapping:** Google Maps API
-  *(Tech Stack — Page 6)*
-
 
 ---
 
@@ -354,4 +336,3 @@ Included from SIH & Avinya documents:
 * NASA groundwater observations
 * IndiaWRIS official portal
 
-*(See Page 6 of SIH PDF)*
